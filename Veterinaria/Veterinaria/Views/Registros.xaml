@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Veterinaria.Views.Registros">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Registro de Usuario!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry x:Name="txtCedula" Placeholder="Cedula del usuario" PlaceholderColor="Black" TextColor="Black"/>
+            <Entry x:Name="txtNombre" Placeholder="Nombre" PlaceholderColor="Black" TextColor = "Black"/>
+            <Entry x:Name="txtEdad" Placeholder="Edad" PlaceholderColor="Black" TextColor="Black"/>
+            <Entry x:Name="txtRol" Placeholder="Rol que desempeña" PlaceholderColor="Black" TextColor="Black"/>
+            <Entry x:Name="txtUsuario" Placeholder="Nombre de usuario" PlaceholderColor="Black" TextColor="Black"/>
+            <Entry x:Name="txtPassword" Placeholder="Contraseña" PlaceholderColor="Black" TextColor="Black"/>
+            <Button x:Name="btnRegistrar" Text="Registrar Usuario" Clicked="btnRegistrar_Clicked" TextColor="Black"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

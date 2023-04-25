@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Veterinaria.Views.Administracion">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenido Administrador!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor="Black"/>
+
+            <Label Text="Ingresar usuario!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor="Black"/>
+            <Button x:Name="registro" Margin="10,10,10,0" Text="registrar usuario" 
+                        Clicked="registro_Clicked"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
